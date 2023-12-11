@@ -1,2 +1,2 @@
 # teamable
-this is an application for managing user profile
+This is an application for managing user profile
