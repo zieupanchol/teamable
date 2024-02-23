@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>teamable</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+</head>
+
+<body>
+    <div id="app"></div>
+       
+</body>
+
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>teamable</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+
+</head>
+
+<body>
+    <div id="display-view">
+        <h1><b>User profile</b></h1>
+        <img src="profile.jpeg">
+        <span>Name:</span><b id="name">Anna Smith</b>
+        <hr>
+        <span>Email:</span><b id="email">anna.smith@example.com</b>
+        <hr>
+        <span>Interests:</span><b id="interests">coding</b>
+        <hr>
+
+        <button onclick="displayView()">Edit Profile</button>
+    </div>
+
+    <div id="edit-view">
+        <h1><b>User profile</b></h1>
+        <img src="profile.jpeg">
+        <span>Name:</span>
+        <input type="text" id="input-name" placeholder="Anna Smith">
+        <hr>
+        <span>Email:</span>
+        <input type="text" id="input-email" placeholder="anna.smith@example.com">
+        <hr>
+        <span>Interests:</span>
+        <input type="text" id="input-interests" placeholder="coding">
+        <hr>
+
+
+        <button onclick="editView()">Update Profile</button>
+    </div>
+
+
+
+</body>
+
+</html>

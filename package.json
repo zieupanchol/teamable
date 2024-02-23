@@ -1,6 +1,6 @@
 {
     "name": "teamable",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "dependencies": {
         "vue": "3.3.7",
         "core-js": "3.33.1",
@@ -16,6 +16,7 @@
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
-        "test": "jest"
+        "test": "jest",
+        "start": "node server.js"
     }
 }
